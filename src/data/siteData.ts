@@ -112,42 +112,9 @@ export const DOCTOR_INFO = {
 export const NAV_ITEMS: NavItem[] = [
   { label: 'Trang chủ', href: '#trang-chu', dataPath: 'trang-chu' },
   { label: 'Giới thiệu', href: '#about-doctor', dataPath: 'gioi-thieu' },
-  {
-    label: 'Chuyên môn',
-    href: '#chuyen-mon',
-    dataPath: 'chuyen-mon',
-    children: [
-      {
-        label: 'Bệnh lý Cơ Xương Khớp',
-        href: '#chuyen-mon',
-        dataPath: 'chuyen-khoa-co-xuong-khop',
-        specialtyId: 'knee-hip',
-      },
-      {
-        label: 'Cột sống & Thoát vị đĩa đệm',
-        href: '#chuyen-mon',
-        dataPath: 'thoat-vi-dia-dem-cot-song',
-        specialtyId: 'spine-disc',
-      },
-      {
-        label: 'Vật lý trị liệu & Phục hồi chức năng',
-        href: '#chuyen-mon',
-        dataPath: 'phuc-hoi-chuc-nang',
-        specialtyId: 'physio',
-      },
-      {
-        label: 'Can thiệp ít xâm lấn đa mô thức',
-        href: '#prp-section',
-        dataPath: 'dieu-tri-khong-phau-thuat',
-        specialtyId: 'prp',
-      },
-    ],
-  },
-  { label: 'PRP Chuyên sâu', href: '#prp-section', dataPath: 'prp-chuyen-sau' },
-  { label: 'Chăm sóc chủ động', href: '#lifestyle-medicine', dataPath: 'cham-soc-suc-khoe-chu-dong' },
+  { label: 'Huyết tương giàu tiểu cầu', href: '#prp-section', dataPath: 'prp-chuyen-sau' },
   { label: 'Kiến thức', href: '#kien-thuc-y-khoa', dataPath: 'kien-thuc-y-khoa' },
   { label: 'Câu chuyện điều trị', href: '#cau-chuyen-khach-hang', dataPath: 'cau-chuyen-khach-hang' },
-  { label: 'Video', href: '#video-section', dataPath: 'video-hoat-dong' },
   { label: 'Liên hệ', href: '#booking-section', dataPath: 'lien-he' },
 ];
 
