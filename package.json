@@ -1,0 +1,26 @@
+{
+  "name": "dr-tran-nhut-minh-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Website cá nhân chính thức ThS.BS. Trần Nhựt Minh - Chuyên sâu Cơ Xương Khớp & Phục hồi chức năng (drtrannhutminh.com)",
+  "scripts": {
+    "dev": "node -r ./scripts/fix-win-fs.cjs ./node_modules/next/dist/bin/next dev",
+    "build": "node -r ./scripts/fix-win-fs.cjs ./node_modules/next/dist/bin/next build",
+    "start": "node -r ./scripts/fix-win-fs.cjs ./node_modules/next/dist/bin/next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^15.1.7",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.2"
+  }
+}
